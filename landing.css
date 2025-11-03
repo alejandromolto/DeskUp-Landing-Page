@@ -1,3 +1,45 @@
+/* Global */
+
+*, ::before, ::after{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+html {
+    hanging-punctuation: first last;
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Roboto,
+	"Inter", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+	"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+input, button, textarea, select {
+	font: inherit;
+}
+
+a, button {
+	touch-action: manipulation;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	*{
+		scroll-behavior:smooth;
+	}
+}
+
+/* Main */
+
+/* Navbar */
+
 nav * {
     display: inline;
-  }
+}
+
+#navbar-deskup-logo{
+	width: 20px;
+}
