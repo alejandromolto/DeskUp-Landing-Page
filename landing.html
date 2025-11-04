@@ -10,44 +10,57 @@
     <body>
         <header>
             <nav>
-                <a href = "./landing.html" class = "navbar-brand">
-                    <img id = "navbar-deskup-logo"src="https://raw.githubusercontent.com/NicolasSerranoGarcia/DeskUp/main/assets/DeskUp-256x256.png" alt="DeskUp logo">
-                    <b>DeskUp</b>
-				</a>
-                <a href = "#features-section">Features</a>
-                <a href="https://github.com/NicolasSerranoGarcia/DeskUp/releases"><p>Download</p></a>
-                <a href="https://DeskUpDocs.github.io"><p>Documentation</p></a>
-                <a href="https://github.com/NicolasSerranoGarcia/DeskUp/"><p>SC</p></a>
-                <a href = "./landing.html">About</a>
+                <a href="#header"><b>DeskUp</b></a>
+                <p><a href="#features">Features</a></p>
+                <p><a href="https://github.com/NicolasSerranoGarcia/DeskUp/releases">Download</a></p>
+                <p><a href="https://DeskUpDocs.github.io">Documentation</a></p>
+                <p><a href="https://github.com/NicolasSerranoGarcia/DeskUp/">SC</a></p>
+                <p><a href="./landing.html">About</a></p>
             </nav>
         </header>
         <main>
-            <section id="main-section">
+            <section id="wrapper-main-section">
                 <h1>DeskUp</h1>
-                <p><b>Save and restore your workspaces on demand</b></p>
-                <img src="https://raw.githubusercontent.com/NicolasSerranoGarcia/DeskUp/main/assets/DeskUp-96x96.png" alt="DeskUp icon">
-                <a><img id="download-windows" alt=""/></a>
+                <p>Focus more. Search less. Organize everything.</p>
+                <div id = "wrapper-photo">
+                    <img class = "rounded main-logo" src="./DeskUpLogo.png" alt = "DeskUp Logo"/>
+                </div>
+                <div id = "wrapper-pop-button"></div>
+                    <a href="https://github.com/NicolasSerranoGarcia/DeskUp/releases/tag/v0.2.0"><img class = "smooth-rectangle" src="./download-for-windows.png" alt = "Download for windows button"/></a>
+                </div>
             </section>
             <section>
                 <h2>What's Deskup?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue nibh sed neque venenatis aliquet. In eget viverra nisl. Nam dictum, risus in semper fermentum, nisi velit accumsan libero, a rhoncus est erat ut risus. Maecenas eleifend lectus nisi. Etiam mattis ornare scelerisque. Praesent vitae libero vel dolor eleifend posuere. Etiam porta mauris nec posuere laoreet.
-                <!-- Photo GUI-->
+                <p>DeskUp is a lightweight, desktop application that lets you save and load your workspaces instantly.
+                    Whether you work with multiple terminals, editors, or applications.</p>
+                    <div id = "wrapper-photo">
+                        <img class = "rounded" src="./photoGUI.png" alt = "DeskUp Logo"/>
+                    </div>
             </section>
-            <section id = "features-section">
+            <section id="features">
                 <h2>Innovative features</h2>
                 <!-- Features-->
-                <p>With DeskUp, you will be...</p>
-                <!-- Share your idea-->
-            </section>
+                <p>With DeskUp, you will be able to instantly restore your entire workspace,
+                    from open applications to window layouts, so you can jump back into work without missing a beat.</p>
+                <div id = "wrapper-pop-button"></div>
+                    <a href="https://nicolasserranogarcia.github.io/"><img class = "smooth-rectangle" src="./share-your-idea.png" alt = "Share your idea button"/></a>
+                </div>
+            </section>           
             <section>
-                <p>DeskUp is open source, ...</p>
-                <!-- See licence-->
-                <!-- Contribute-->
-                <!-- Photo github o community-->
-            </section>
+                <h2>Open Source</h2>
+                <p><b>DeskUp</b> is open source, giving you full transparency and control over how your workspaces are saved, loaded, and managed. With DeskUp, 
+                    you will be able to customize and extend the app to fit your unique workflow perfectly.</p>
+                <div id = "wrapper-pop-button"></div>
+                    <a href="https://github.com/NicolasSerranoGarcia/DeskUp/blob/main/LICENSE"><img class = "smooth-rectangle" src="./see-licence.png" alt = "See licence button"/></a>
+                </div>
+                <div id = "wrapper-pop-button"></div>
+                    <a href="https://github.com/NicolasSerranoGarcia/DeskUp/blob/main/README.md"><img class = "smooth-rectangle" src="./contribute.png" alt = "Contribute button"/></a>
+                </div>
+                <!--Photo maybe?-->
+            </section>          
         </main>
         <footer>
-
+            <p>2025 DeskUp — Open Source Workspace Manager</p>
         </footer>
     </body>
 </html>
