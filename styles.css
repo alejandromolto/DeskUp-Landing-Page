@@ -101,8 +101,9 @@ section {
 }
 
 #wrapper-open-source-description-section p{
-	padding-left: 30rem;
-	padding-right: 30rem;
+	text-align:center;
+	width: 30%;
+	min-width: 50px;
 }
 
 #wrapper-open-source-description-section-interactive{
