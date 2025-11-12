@@ -110,6 +110,18 @@ footer p{
 	height: 25px;
 }
 
+.tech-logo{
+	width: 7rem;
+	height: 7rem;
+}
+
+.qt-logo {
+	height: 7rem !important;
+	width: 10rem !important;
+}
+
+
+
 /* Wrappers */
 
 #wrapper-main-section{
@@ -149,6 +161,21 @@ footer p{
 	gap: 1rem;
 	text-align: left;
 	min-width: 50px;
+}
+
+#wrapper-tech-stack{
+	text-align: center;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+#wrapper-tech-stack a{
+	filter: grayscale(100%);
+	transition: filter 0.8s ease;
+}
+
+#wrapper-tech-stack a:hover{
+	filter: grayscale(0%);
 }
 
 #wrapper-open-source-description-section p{
