@@ -4,9 +4,6 @@ header{
   	font-size: 20px;
   	border-bottom: 2px solid #ccc;
   	padding: 20px 0;
-}
-
-header{
 	position: sticky;
 	top: 0;
 	z-index: 1000;
@@ -98,16 +95,17 @@ section {
 	align-items: center;
 	gap: 1rem;
 	text-align: left;
+	min-width: 50px;
 }
 
 #wrapper-open-source-description-section p{
 	text-align:center;
 	width: 30%;
-	min-width: 50px;
+	min-width: 25rem;
+	max-width: 300px;
 }
 
 #wrapper-open-source-description-section-interactive{
-
 	flex-direction: row;
 	display: flex;
 	gap: 1rem;
