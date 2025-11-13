@@ -153,17 +153,6 @@ footer p{
 	min-width: 300px;
 }
 
-#wrapper-open-source-description-section{
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1rem;
-	text-align: left;
-	min-width: 50px;
-}
-
 #wrapper-tech-stack{
 	text-align: center;
 	padding-top: 5rem;
@@ -179,8 +168,18 @@ footer p{
 	filter: grayscale(0%);
 }
 
+#wrapper-open-source-description-section{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem; /* Distance between the text and the buttons */
+	text-align: center;
+	min-width: 50px;
+}
+
 #wrapper-open-source-description-section p{
-	padding-top: 0;
 	text-align:center;
 	width: 30rem;
 }
@@ -188,7 +187,7 @@ footer p{
 #wrapper-open-source-description-section-interactive{
 	flex-direction: row;
 	display: flex;
-	gap: 1rem;
+	gap: 1rem; /* Distance between the buttons */
 }
 
 #wrapper-photo{
