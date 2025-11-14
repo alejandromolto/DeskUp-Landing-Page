@@ -11,7 +11,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	width: 100vw;
+	width: 100%;
 }
 
 nav * {
@@ -22,7 +22,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
-	width: 100vw;
+	width: 100%;
 	align-items: center;
 	justify-content: center;
 }
@@ -137,20 +137,19 @@ footer p{
 	gap: 5rem;
 }
 
-#wrapper-deskup-description-section{
-	padding-top: 5rem;
-	padding-bottom: 5rem;
-	display: flex;
-	align-items: center;
-	gap: 1rem;
-	padding-left: 35%;
-	padding-right: 40rem;
-	text-align: left;
-	width: 30rem;
+#wrapper-deskup-description-section {
+    padding: 5rem 2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: left;
 }
 
 #wrapper-deskup-description-section p{
 	min-width: 300px;
+	max-width: 100%;
 }
 
 #wrapper-tech-stack{
@@ -181,7 +180,7 @@ footer p{
 
 #wrapper-open-source-description-section p{
 	text-align:center;
-	width: 30rem;
+	max-width: 30rem;
 }
 
 #wrapper-open-source-description-section-interactive{
